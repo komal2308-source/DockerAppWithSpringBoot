@@ -1,0 +1,9 @@
+1) create spring boot project
+2)build jar using mvn package
+3)install docker desktop
+4)go to build -> active build -> copy given command "docker buildx build ."
+5)run this cmd in terminal in intellij
+6)it will build image that we can see in docker desktop.
+7)check by running container and image
+8)to access endpoint we need to run "docker run -p 8080:8080 <imageName>"
+9)check to access endpoint
