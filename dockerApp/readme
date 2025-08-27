@@ -7,3 +7,10 @@
 7)check by running container and image
 8)to access endpoint we need to run "docker run -p 8080:8080 <imageName>"
 9)check to access endpoint
+
+#imp commands
+
+#tag image in lowercase
+docker tag dockerapp.jar:latest kjansari/dockerapp
+#push image to dockerhub
+docker push <DockerUsername>/<imageName>
