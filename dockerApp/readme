@@ -14,3 +14,9 @@
 docker tag dockerapp.jar:latest kjansari/dockerapp
 #push image to dockerhub
 docker push <DockerUsername>/<imageName>
+
+
+#generated render URL sample
+
+https://dockerapp-v91o.onrender.com/hello
+
